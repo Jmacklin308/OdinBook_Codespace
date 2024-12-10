@@ -8,7 +8,7 @@
       "type": "lldb",
       "request": "launch",
       "name": "Debug",
-      "program": "${workspaceFolder}/build/program_name",
+      "program": "${workspaceFolder}/build/odinBook",
       "args": [],
       "preLaunchTask": "Bash Run", // Runs the build task before debugging
       "cwd": "${workspaceFolder}"

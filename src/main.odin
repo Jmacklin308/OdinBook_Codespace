@@ -1,4 +1,4 @@
-package program_name
+package odinBook
 
 import "core:fmt"
 import "core:mem"
@@ -27,5 +27,6 @@ main :: proc() {
 		}
 	}
 
-	fmt.println("Hello, World")
+	variables()
+	constants()
 }
