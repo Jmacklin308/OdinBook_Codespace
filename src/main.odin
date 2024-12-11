@@ -27,6 +27,8 @@ main :: proc() {
 		}
 	}
 
+
 	variables()
 	constants()
+	isOldEnough(27, "justin")
 }
