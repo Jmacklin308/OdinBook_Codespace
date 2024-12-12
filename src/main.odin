@@ -1,6 +1,6 @@
 package odinBook
 
-import "core:fmt"
+import fmt "core:fmt"
 import "core:mem"
 
 main :: proc() {
@@ -30,5 +30,18 @@ main :: proc() {
 
 	variables()
 	constants()
+
+	//procedures
 	isOldEnough(27, "justin")
+
+	//if statements
+	canEnter: bool = ifStatements(22)
+	if canEnter {
+		fmt.println("CAN ENTER")
+	}
+
+	//loops
+	loops(10, "YOLO")
+
+
 }
