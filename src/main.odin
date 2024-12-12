@@ -1,6 +1,6 @@
 package odinBook
 
-import fmt "core:fmt"
+import "core:fmt"
 import "core:mem"
 
 main :: proc() {
@@ -27,21 +27,27 @@ main :: proc() {
 		}
 	}
 
+	// chapter 3 flip to true when ready
+	if false {
+		variables()
+		constants()
 
-	variables()
-	constants()
-
-	//procedures
-	isOldEnough(27, "justin")
-
-	//if statements
-	canEnter: bool = ifStatements(22)
-	if canEnter {
-		fmt.println("CAN ENTER")
 	}
+	//chapter 4 - flip to true when ready
+	if false {
+		//procedures
+		isOldEnough(27, "justin")
 
-	//loops
-	loops(10, "YOLO")
+		//loops
+		loops(20, "YOLO")
+		loops2(10, "Some message")
 
+		//fixed arrays
+		fixedArrays()
+
+
+		// all concepts together
+		allTogether()
+	}
 
 }
