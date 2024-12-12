@@ -1,4 +1,5 @@
 build/
 .DS_Store
-.sublime/OdinBook_CodeWorkspace.sublime-project
-.sublime/OdinBook_CodeWorkspace.sublime-workspace
+.code-workspace
+OdinBook_Codespace_work.code-workspace
+.sublime/
