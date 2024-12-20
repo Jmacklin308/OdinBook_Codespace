@@ -11,7 +11,8 @@
       "program": "${workspaceFolder}/build/odinBook",
       "args": [],
       "preLaunchTask": "Batch Script Run", // Runs the build task before debugging
-      "cwd": "${workspaceFolder}"
+      "cwd": "${workspaceFolder}",
+      "console": "externalTerminal"
     }
   ]
 }

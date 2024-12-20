@@ -1,4 +1,4 @@
-package odinBook
+package chapter3
 
 import fmt "core:fmt"
 
