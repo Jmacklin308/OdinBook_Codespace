@@ -3,3 +3,5 @@ build/
 .code-workspace
 OdinBook_Codespace_work.code-workspace
 .sublime/
+todo.txt
+OdinBook_Codespace.sublime-workspace
