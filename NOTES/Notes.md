@@ -1,3 +1,7 @@
+# Packages
+
+import local folders with `import "folder/childfolder" if in root directory
+
 # Chapter 3 - Variables and constants
 
 Constants can be declared with `::`
@@ -109,3 +113,45 @@ newArray := [10]int{
 if there is too many values in a array the compiler will error out.
 
 # Chapter 5 - Making new types
+
+## How to create a struct
+
+```odin
+	Rectangle :: struct {
+		x : f64,
+		y : f64,
+	}
+```
+
+## The using keyword
+
+The using keyword allows you to expose fields inside another struct to the parent struct. This is useful because you don't have to type as much. Look at the example below.
+
+```odin
+	Person :: struct {
+		using rect: Rectangle,
+		name: string,
+	}
+```
+
+allows someone to access the fields of a struct directly in another struct... this example we can have:
+
+    justin : Person
+
+and access the rectangle's x by
+
+    justin.rect.x
+
+Idk about you but thats alot of words bro... It'll flow better if we just:
+
+    justin.x
+
+Hey that worked! The using keyword is super helpful.
+
+## No such thing as classes and methods
+
+In odin there is no such thing as a class or method in odin.
+
+Use structs to store data, and procedures to prodcess data.
+
+While there are some ways to implement methods... its not reccomended. It goes against the design of odin and complicates things. Just use structs and seperate procedures.

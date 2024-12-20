@@ -3,3 +3,4 @@ build/
 .code-workspace
 OdinBook_Codespace_work.code-workspace
 .sublime/
+.vscode/linenote
